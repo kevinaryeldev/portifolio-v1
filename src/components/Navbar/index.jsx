@@ -5,11 +5,11 @@ const Navbar = () => {
   return (
     <StyledNav>
       <LogoContainer>
-        <img src={logo} alt="Kevin Dev Logo" srcset="" />
+        <img src={logo} alt="Kevin Dev Logo" />
       </LogoContainer>
       <NavbarLinkNest>
         <NavbarLink href="#">Home</NavbarLink>
-        <NavbarLink href="/about">About</NavbarLink>
+        <NavbarLink href="#about">About</NavbarLink>
         <NavbarLink href="/projects">Projects</NavbarLink>
         <NavbarLink href="/contact">Contact</NavbarLink>
       </NavbarLinkNest>

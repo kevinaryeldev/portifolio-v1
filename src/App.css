@@ -1,7 +1,5 @@
 .App {
-  height: 100vh;
-  width: 100vw;
+  background-color: black;
+  min-height: 100vh;
   min-width: 320px;
-  background: url(./img/gif-rain.gif);
-  background-size: cover;
 }

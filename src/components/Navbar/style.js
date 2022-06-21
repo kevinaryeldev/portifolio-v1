@@ -10,17 +10,16 @@ export const StyledNav = styled.nav`
   align-items: center;
   padding: 1em;
   min-width: 320px;
+  :hover {
+    background-color: rgba(0, 0, 0, 0.9);
+  }
 
   @media (prefers-reduced-motion: no-preference) {
-    :hover {
-      background-color: rgba(0, 0, 0, 0.9);
-    }
-    transition: background-color cubic-bezier(0.075, 0.82, 0.165, 1) 2s;
+    transition: all ease-in-out 2.5s;
   }
 
   @media (min-width: 500px) {
     padding: 1.5em 3em;
-    transition: ease all 2s;
   }
 
   div {
@@ -38,10 +37,6 @@ export const NavbarLink = styled.a`
   font-size: 0.8em;
   font-weight: bolder;
   :hover {
-    animation-name: colorLoop;
-    animation-duration: 1s;
-    animation-iteration-count: 2;
-    animation-direction: alternate-reverse;
     color: #82b541;
   }
 
@@ -49,12 +44,20 @@ export const NavbarLink = styled.a`
     font-size: 1.2em;
   }
 
-  @keyframes colorLoop {
-    0% {
-      color: #0085b6;
+  @media (prefers-reduced-motion: no-preference) {
+    :hover {
+      animation-name: colorLoop;
+      animation-duration: 1s;
+      animation-iteration-count: 2;
+      animation-direction: alternate-reverse;
     }
-    100% {
-      color: #82b541;
+    @keyframes colorLoop {
+      0% {
+        color: #0085b6;
+      }
+      100% {
+        color: #82b541;
+      }
     }
   }
 `
@@ -62,6 +65,11 @@ export const NavbarLink = styled.a`
 export const LogoContainer = styled.div`
   animation: showUp ease-in-out 3s;
   margin-bottom: -2px;
+
+  img {
+    height: 50px;
+    width: 49px;
+  }
   @media (prefers-reduced-motion: no-preference) {
     @keyframes showUp {
       0% {
@@ -69,7 +77,7 @@ export const LogoContainer = styled.div`
         transform: rotate(0deg);
       }
       25% {
-        opacity: 0.7;
+        opacity: 0.5;
       }
       50% {
         opacity: 1;
