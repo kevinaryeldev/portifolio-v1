@@ -1,11 +1,11 @@
 import styled from 'styled-components'
 
 export const HomeContainer = styled.section`
-  background: url('./../../img/gif-rain.gif');
+  background: url('https://i.ibb.co/pngbwBc/gif-rain.gif');
   display: flex;
   align-items: center;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background-size: cover;
   padding: 2em;
   box-sizing: border-box;
