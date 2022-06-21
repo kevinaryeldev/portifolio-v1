@@ -8,10 +8,10 @@ const Navbar = () => {
         <img src={logo} alt="Kevin Dev Logo" srcset="" />
       </LogoContainer>
       <NavbarLinkNest>
-        <NavbarLink href="/">Home</NavbarLink>
-        <NavbarLink href="/about">Sobre mim</NavbarLink>
-        <NavbarLink href="/projects">Projetos</NavbarLink>
-        <NavbarLink href="/contact">Contato</NavbarLink>
+        <NavbarLink href="#">Home</NavbarLink>
+        <NavbarLink href="/about">About</NavbarLink>
+        <NavbarLink href="/projects">Projects</NavbarLink>
+        <NavbarLink href="/contact">Contact</NavbarLink>
       </NavbarLinkNest>
     </StyledNav>
   )
