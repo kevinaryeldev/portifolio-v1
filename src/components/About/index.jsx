@@ -12,7 +12,12 @@ const About = () => {
             development. I keep only studying react and some libraries while i
             don't find an job on web dev but i hope begin to work with
             programming soon. If you want to see more, here is my{' '}
-            <a href="#">CV</a>
+            <a
+              target="_blank"
+              href="https://drive.google.com/file/d/1RgReMydK4oDmFZ2oR0tQpPkuJxbybN2Z/view?usp=sharing"
+            >
+              CV
+            </a>
           </p>
         </AboutSection>
         <AboutSection columnNumber={'1'}>

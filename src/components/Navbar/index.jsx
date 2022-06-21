@@ -10,8 +10,8 @@ const Navbar = () => {
       <NavbarLinkNest>
         <NavbarLink href="#">Home</NavbarLink>
         <NavbarLink href="#about">About</NavbarLink>
-        <NavbarLink href="/projects">Projects</NavbarLink>
-        <NavbarLink href="/contact">Contact</NavbarLink>
+        <NavbarLink href="#projects">Projects</NavbarLink>
+        <NavbarLink href="#contact">Contact</NavbarLink>
       </NavbarLinkNest>
     </StyledNav>
   )

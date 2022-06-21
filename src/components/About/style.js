@@ -11,9 +11,10 @@ export const AboutGrid = styled.div`
 export const AboutContainer = styled.section`
   background-color: inherit;
   box-sizing: border-box;
-  padding-top: 100px;
+  padding: 100px 0;
   width: 100%;
   height: 100vh;
+  min-height: fit-content;
   display: flex;
   justify-content: center;
 `
