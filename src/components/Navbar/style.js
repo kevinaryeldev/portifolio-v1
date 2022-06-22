@@ -15,7 +15,7 @@ export const StyledNav = styled.nav`
   }
 
   @media (prefers-reduced-motion: no-preference) {
-    transition: all ease-in-out 2.5s;
+    transition: all ease-in-out 1.5s;
   }
 
   @media (min-width: 500px) {
