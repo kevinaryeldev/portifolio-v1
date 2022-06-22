@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useRef, useEffect } from 'react'
 import {
   ButtonContact,
   ContactContainer,
@@ -14,6 +14,27 @@ const Contact = () => {
   const handleModal = () => {
     setModalOpen((prev) => !prev)
   }
+  const copyText = (e) => {
+    const text = e.target
+    navigator.clipboard.writeText(text?.innerHTML)
+  }
+
+  function handleClickAway(ref) {
+    useEffect(() => {
+      const handleClickOutside = (e) => {
+        if (ref.current && !ref.current.contains(e.target)) {
+          setModalOpen((prev) => !prev)
+        }
+      }
+      modalOpen && document.addEventListener('mousedown', handleClickOutside)
+      //cleanUp
+      return () => {
+        document.removeEventListener('mousedown', handleClickOutside)
+      }
+    }, [modalOpen])
+  }
+  const refModal = useRef(null)
+  handleClickAway(refModal)
 
   return (
     <>
@@ -24,14 +45,14 @@ const Contact = () => {
         </ButtonContact>
         <ButtonContact onClick={handleModal}>Just informal</ButtonContact>
       </ContactContainer>
-      <ModalContainer open={modalOpen} onClick={handleModal}>
-        <ModalContact>
+      <ModalContainer open={modalOpen}>
+        <ModalContact ref={refModal}>
           <div className="decor-line" />
           <ModalContactOption>
             <div className="decoration">
               <FaDiscord /> Discord
             </div>
-            <p> KevinAryel#3329</p>
+            <p onClick={copyText}>KevinAryel#3329</p>
           </ModalContactOption>
         </ModalContact>
       </ModalContainer>
