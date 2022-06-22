@@ -9,7 +9,13 @@ export const AboutGrid = styled.div`
 `
 
 export const AboutContainer = styled.section`
-  background-color: inherit;
+  background: rgb(0, 0, 0);
+  background: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 1) 20%,
+    rgba(5, 5, 5, 1) 50%,
+    rgba(10, 10, 10, 1) 80%
+  );
   box-sizing: border-box;
   padding: 100px 0;
   width: 100%;
@@ -17,6 +23,7 @@ export const AboutContainer = styled.section`
   min-height: fit-content;
   display: flex;
   justify-content: center;
+  align-items: center;
 `
 export const AboutSection = styled.div`
   box-sizing: border-box;
