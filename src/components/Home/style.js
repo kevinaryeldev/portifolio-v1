@@ -4,6 +4,7 @@ export const HomeContainer = styled.section`
   background: url('https://i.ibb.co/pngbwBc/gif-rain.gif');
   display: flex;
   align-items: center;
+  min-height: fit-content;
   width: 100%;
   height: 100vh;
   background-size: cover;
