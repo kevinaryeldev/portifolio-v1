@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const HomeContainer = styled.section`
-  background: url('https://i.ibb.co/pngbwBc/gif-rain.gif');
+  background: url('https://i.ibb.co/nsYkZ72/rain-small.gif');
   display: flex;
   align-items: center;
   min-height: fit-content;
