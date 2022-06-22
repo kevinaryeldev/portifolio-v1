@@ -1,6 +1,8 @@
 import styled from 'styled-components'
 
 export const ContactContainer = styled.section`
+  background: url('https://i.ibb.co/RHLXWmQ/Background.png');
+  background-size: cover;
   display: flex;
   height: 100vh;
   min-height: fit-content;
@@ -11,7 +13,6 @@ export const ContactContainer = styled.section`
   justify-content: center;
   gap: 20px;
   color: white;
-  background-color: #000000e5;
   h3 {
     font-weight: 500;
     font-size: 1.7rem;
