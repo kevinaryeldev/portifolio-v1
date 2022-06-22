@@ -3,41 +3,43 @@ import styled from 'styled-components'
 export const AboutGrid = styled.div`
   box-sizing: border-box;
   display: grid;
-  grid-template-columns: 45% 45%;
-  grid-template-rows: 40% 40%;
+  justify-content: center;
   gap: 20px;
+  grid-template-columns: 90%;
+  grid-template-rows: auto auto auto;
+  @media (min-width: 1024px) {
+    grid-template-columns: 45% 45%;
+    grid-template-rows: auto auto;
+  }
 `
 
 export const AboutContainer = styled.section`
   background: rgb(0, 0, 0);
   background: radial-gradient(
     circle,
-    rgba(0, 0, 0, 1) 20%,
-    rgba(5, 5, 5, 1) 50%,
-    rgba(10, 10, 10, 1) 80%
+    rgba(0, 0, 0, 1) 40%,
+    rgba(5, 5, 5, 1) 70%
   );
   box-sizing: border-box;
   padding: 100px 0;
   width: 100%;
-  height: 100vh;
-  min-height: fit-content;
+  height: fit-content;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 `
 export const AboutSection = styled.div`
   box-sizing: border-box;
-  border: 2px solid;
+  border: 2px solid rgba(130, 181, 65, 0.8);
   grid-column: 1 / span 2;
   padding: 1rem;
+  background-color: rgba(130, 181, 65, 0.15);
+  color: rgba(240, 240, 240, 0.8);
   h2 {
-    color: wheat;
     border-bottom: 2px solid white;
     padding-left: 1rem;
     padding-bottom: 2px;
-  }
-  p {
-    color: wheat;
   }
 
   @media (min-width: 1024px) {
