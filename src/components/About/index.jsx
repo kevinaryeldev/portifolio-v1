@@ -11,7 +11,7 @@ const About = () => {
             university and recently completed an 1000h course on web
             development. I keep only studying react and some libraries while i
             don't find an job on web dev but i hope begin to work with
-            programming soon. If you want to see more, here is my{' '}
+            programming soon. If you want to read more, here is my {''}
             <a
               target="_blank"
               href="https://drive.google.com/file/d/1RgReMydK4oDmFZ2oR0tQpPkuJxbybN2Z/view?usp=sharing"
@@ -31,7 +31,13 @@ const About = () => {
         </AboutSection>
 
         <AboutSection columnNumber={'2'}>
-          <h2>Comming soon</h2>
+          <h2>My Stack</h2>
+          <p>
+            Besides the basic combination of HTML5, CSS3, Javascript ES6+ and
+            React17/18, i also frequently use router-dom5/6, react-redux with
+            and without the toolkit, styled-components, axios, chakra-ui and
+            material-ui
+          </p>
         </AboutSection>
       </AboutGrid>
     </AboutContainer>
