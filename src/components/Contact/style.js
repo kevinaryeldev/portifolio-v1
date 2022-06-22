@@ -12,6 +12,10 @@ export const ContactContainer = styled.section`
   gap: 20px;
   color: white;
   background-color: #000000e5;
+  h3 {
+    font-weight: 500;
+    font-size: 1.7rem;
+  }
 `
 
 export const ModalContainer = styled.div`
@@ -24,6 +28,17 @@ export const ModalContainer = styled.div`
   height: 100vh;
   align-items: center;
   justify-content: center;
+  @media (prefers-reduced-motion: no-preference) {
+    animation: fade-in 0.7s normal forwards;
+    @keyframes fade-in {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+  }
 `
 export const ButtonContact = styled.button`
   padding: 0.7rem 1rem;
@@ -32,7 +47,7 @@ export const ButtonContact = styled.button`
   align-items: center;
   justify-content: center;
   font-size: 0.9rem;
-  width: 130px;
+  width: 140px;
   border-radius: 30px;
   border: 2px solid white;
   box-sizing: border-box;
@@ -40,6 +55,7 @@ export const ButtonContact = styled.button`
   color: white;
   font-weight: 550;
   display: flex;
+  font-family: 'Roboto Serif', serif;
   :hover {
     background-color: white;
     color: black;
@@ -78,5 +94,9 @@ export const ModalContactOption = styled.div`
     padding: 0.7rem;
     border-radius: 10px;
     color: white;
+  }
+  p {
+    font-family: 'Roboto-serif', serif;
+    cursor: pointer;
   }
 `
