@@ -2,8 +2,8 @@
 
 This is a webpage create in react to serve as a portifolio to my carrer as a beginer front end develeoper
 
-<div>Most Used Language: <img src="https://img.shields.io/github/languages/top/kevinaryeldev/portifolio-v1?style=social"  />
-Last commit: <img src="https://img.shields.io/github/last-commit/kevinaryeldev/portifolio-v1?style=social"  />
+<div> Most Used Language:  <img src="https://img.shields.io/github/languages/top/kevinaryeldev/portifolio-v1?style=social"  />
+<img src="https://img.shields.io/github/last-commit/kevinaryeldev/portifolio-v1?style=social"  />
 </div>
 
 ## Details
@@ -15,7 +15,7 @@ Of course i want to show my skills in various react libraries and so on, but i f
 
 ## Run
 
-Use the package yarn [yarn](https://classic.yarnpkg.com/lang/en/docs/install/) to run this project.
+Use the package [yarn](https://classic.yarnpkg.com/lang/en/docs/install/) to run this project.
 
 to run locally:
 
@@ -32,12 +32,12 @@ For any hint or tips please open an issue to discuss what you think is good to b
 
 ## Roadmap
 
-- [] Meta description
-- [] Adjust in page performace
-- [] Tests
-- [] Improve Layout
-- [] Add Projects section
-- [] Better animations (maybe with framer-motion)
+- [ ] Meta description
+- [ ] Adjust in page performace
+- [ ] Tests
+- [ ] Improve Layout
+- [ ] Add Projects section
+- [ ] Better animations (maybe with framer-motion)
 
 ## License
 
