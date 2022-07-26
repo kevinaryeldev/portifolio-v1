@@ -57,6 +57,7 @@ export const ButtonContact = styled.button`
   font-weight: 550;
   display: flex;
   font-family: 'Roboto Serif', serif;
+  width: fit-content;
   :hover {
     background-color: white;
     color: black;
@@ -90,14 +91,27 @@ export const ModalContactOption = styled.div`
   display: flex;
   gap: 10px;
   align-items: center;
-  .decoration {
+  .discord {
     background-color: #738adb;
+  }
+  .decoration {
     padding: 0.7rem;
     border-radius: 10px;
     color: white;
   }
+  .linkedin {
+    background-color: #0072b1;
+  }
   p {
     font-family: 'Roboto-serif', serif;
     cursor: pointer;
+  }
+`
+export const ButtonNest = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  @media (min-width: 1024px) {
+    flex-direction: row;
   }
 `
