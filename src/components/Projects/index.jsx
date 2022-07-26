@@ -1,9 +1,20 @@
-import { ProjectsContainer } from './style'
+import {
+  ProjectsCardContainer,
+  ProjectsContainer,
+  ProjectsTitle,
+} from './style'
+import { ProjectsData } from '../../common/constants'
+import ProjectsCard from './components/ProjectsCard'
 
 const Projects = () => {
   return (
     <ProjectsContainer id="projects">
-      <h1>Coming soon</h1>
+      <ProjectsTitle>Projetos:</ProjectsTitle>
+      <ProjectsCardContainer>
+        {ProjectsData.map((el, index) => {
+          return <ProjectsCard key={index} info={el} />
+        })}
+      </ProjectsCardContainer>
     </ProjectsContainer>
   )
 }
