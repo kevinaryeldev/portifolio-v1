@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import myImage from './../../img/20395954.jpg'
 
 export const AboutGrid = styled.div`
   box-sizing: border-box;
@@ -14,14 +15,11 @@ export const AboutGrid = styled.div`
 `
 
 export const AboutContainer = styled.section`
-  background: rgb(0, 0, 0);
-  background: radial-gradient(
-    circle,
-    rgba(0, 0, 0, 1) 40%,
-    rgba(5, 5, 5, 1) 70%
-  );
+  background-image: url(${myImage});
+  background-size: cover;
+  box-shadow: inset 0 0 1em 1em #000000e5;
   box-sizing: border-box;
-  padding: 100px 0;
+  padding: 100px 5vw;
   width: 100%;
   height: fit-content;
   min-height: 100vh;
@@ -32,6 +30,7 @@ export const AboutContainer = styled.section`
 export const AboutSection = styled.div`
   box-sizing: border-box;
   border: 2px solid rgba(130, 181, 65, 0.8);
+  border-radius: 0.5rem;
   grid-column: 1 / span 2;
   padding: 1rem;
   background-color: rgba(130, 181, 65, 0.15);
