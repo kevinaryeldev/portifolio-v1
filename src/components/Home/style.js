@@ -68,6 +68,7 @@ export const DescriptionHome = styled.p`
   }
 `
 export const LinkHomeText = styled.a`
+  color: #0085b6;
   transition: color 0.7s ease-in;
   :hover {
     color: #82b541;
