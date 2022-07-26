@@ -11,15 +11,23 @@ const Home = () => {
     <HomeContainer id="home">
       <HomeContent className="content">
         <HomeTitle className="animated1 animatedHome">
-          Hi, my name is Kevin Aryel
+          Olá, meu nome é Kevin Aryel
         </HomeTitle>
         <DescriptionHome className="animated2 animatedHome">
-          I'm a front end developer based in Brazil, currently working with
-          React
+          Sou um dev front end soteropolitano, atualmente trabalhando com React
         </DescriptionHome>
         <DescriptionHome className="animated3 animatedHome">
-          Feel free to explore or{' '}
-          <LinkHomeText href="#contact">contact me</LinkHomeText>
+          Sinta-se livre para explorar ou{' '}
+          <LinkHomeText href="#contact">me contactar</LinkHomeText>
+        </DescriptionHome>
+        <DescriptionHome>
+          Visite também meu{' '}
+          <LinkHomeText
+            target="_blank"
+            href="https://www.github.com/kevinaryeldev"
+          >
+            repositório.
+          </LinkHomeText>
         </DescriptionHome>
       </HomeContent>
     </HomeContainer>
