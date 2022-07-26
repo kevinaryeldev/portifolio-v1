@@ -3,9 +3,9 @@
 This is a webpage create in react to serve as a portifolio to my carrer as a beginer front end develeoper
 
 <div> Most Used Language:  <img src="https://img.shields.io/github/languages/top/kevinaryeldev/portifolio-v1?style=social"  />
-<img src="https://img.shields.io/github/last-commit/kevinaryeldev/portifolio-v1?style=social"  />
-</div>
 
+</div>
+<img src="https://img.shields.io/github/last-commit/kevinaryeldev/portifolio-v1?style=social"  />
 ## Details
 
 You can check the final result [here](https://kevinaryeldev.vercel.app/)
