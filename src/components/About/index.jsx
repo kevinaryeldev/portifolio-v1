@@ -5,13 +5,13 @@ const About = () => {
     <AboutContainer id="about">
       <AboutGrid>
         <AboutSection columnNumber={'1/span 2'}>
-          <h2>About me</h2>
+          <h2>Sobre mim</h2>
           <p>
-            I currently study system analysis and development at an brazilian
-            university and recently completed an 1000h course on web
-            development. I keep only studying react and some libraries while i
-            don't find an job on web dev but i hope begin to work with
-            programming soon. If you want to read more, here is my {''}
+            Eu estou estudando Análise e Desenvolvimento de Sistemas e
+            recentemente completei um curso de 1000 horas em desenvolvimento
+            web. Continuo estudando React e outras bibliotecas enquanto procuro
+            um trabalho na área e espero começar a trabalhar com programação
+            logo. Se quiser ler mais, aqui está meu {''}
             <a
               target="_blank"
               href="https://drive.google.com/file/d/1RgReMydK4oDmFZ2oR0tQpPkuJxbybN2Z/view?usp=sharing"
@@ -21,22 +21,22 @@ const About = () => {
           </p>
         </AboutSection>
         <AboutSection columnNumber={'1'}>
-          <h2> About this project</h2>
+          <h2>Sobre este projeto</h2>
           <p>
-            This page is now in a "experimental state", i'm using this
-            enviroment to explore some elements that i haven't had the pleasure
-            of using before. I recommend that you stay tuned here because soon
-            we will have good changes
+            Esta página está em um "estado experimental", estou usando este
+            ambiente para explorar alguns elementos que eu não tive o prazer de
+            usar antes. Eu recomendo que fique alerta aqui pois logo mais
+            teremos boas mudanças
           </p>
         </AboutSection>
 
         <AboutSection columnNumber={'2'}>
-          <h2>My Stack</h2>
+          <h2>Minha Stack</h2>
           <p>
-            Besides the basic combination of HTML5, CSS3, Javascript ES6+ and
-            React17/18, i also frequently use router-dom5/6, react-redux with
-            and without the toolkit, styled-components, axios, chakra-ui and
-            material-ui
+            Para além da combinação basica de HTML5, CSS3, Javascript ES6+ e
+            React 17/18, eu também frequentemente utilizo router-dom5/6
+            react-redux com e sem o toolkit, styled-components, axios,chakra-ui
+            e material-ui
           </p>
         </AboutSection>
       </AboutGrid>

@@ -9,9 +9,9 @@ const Navbar = () => {
       </LogoContainer>
       <NavbarLinkNest>
         <NavbarLink href="#">Home</NavbarLink>
-        <NavbarLink href="#about">About</NavbarLink>
-        <NavbarLink href="#projects">Projects</NavbarLink>
-        <NavbarLink href="#contact">Contact</NavbarLink>
+        <NavbarLink href="#about">Sobre</NavbarLink>
+        <NavbarLink href="#projects">Projetos</NavbarLink>
+        <NavbarLink href="#contact">Contato</NavbarLink>
       </NavbarLinkNest>
     </StyledNav>
   )
